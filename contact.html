@@ -53,16 +53,30 @@
     
    
     <section class="section">
+<div class="wrapcont">
     <div class="container div-contacts">
         <div><h1 class="title title-contact">Зв'яжіться з нами:</h1>
             <p class="link contact-link">м. Київ, пр-т Лесі Українки 26</p>
             <p class="link contact-link">info@happystudio.com</p>
             <p class="link contact-link">+38 096 111 11 11</p>
         </div>
+        <div>
+            <h2 class="title-contact arrcont">Обробка масиву</h2>
+            <form id="arrayForm">
+                <label for="arraySize" class="contact-link arrcont">Введіть кількість елементів масиву:</label><br>
+                <input class="cont-input" type="number" id="arraySize" name="size" min="1" required>
+                <button type="submit" class="arr-button">Створити масив</button>
+            </form>
+        
+            <h2 class="contact-link arrcont">Відсортований масив:</h2>
+            <p id="sortedArray"></p>
+        </div>
         
         <div class="calendar"></div>
 
+
     </div>
+</div>
     </section>
     
 </main>
@@ -133,7 +147,7 @@
 </div>
     
 </footer>
-       
+<script src="./array.js"></script>
 <script src="./calendar.js"></script>
 </body>
 </html>

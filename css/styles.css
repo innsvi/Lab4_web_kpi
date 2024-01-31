@@ -733,7 +733,7 @@ button{
 
 /* КАЛЕНЛАР */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap'); */
 
 :root {
     --calendar-bg-color: #262829;
@@ -759,7 +759,7 @@ button{
     position: relative;
     max-width: 400px; /*change as per your design need */
     min-width: 320px;
-    background: var(--calendar-bg-color);
+    background: rgb(91, 91, 91);
     color: var(--calendar-font-color);
     margin: 20px auto;
     box-sizing: border-box;
@@ -898,6 +898,7 @@ button{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    gap:30px;
 }
 
 .contact-link{
@@ -922,6 +923,42 @@ button{
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+/* ОФОРМЛЕННЯ МАСИВУ */
+
+.wrapcont{
+    display: flex;
+    gap: 30px;
+}
+
+.arr-button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5%;
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.arrcont{
+    margin-bottom: 15px;
+}
+
+.cont-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 
 
 
